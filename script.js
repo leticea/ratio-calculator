@@ -12,3 +12,8 @@ let calculateHeight = () => {
   let aspectRatio = ratioWidth.value / ratioHeight.value;
   height.value = parseFloat((width.value / aspectRatio).toFixed(2));
 };
+
+height.addEventListener("input", calculateWidth);
+width.addEventListener("input", calculateHeight);
+ratioHeight.addEventListener("input", calculateWidth);
+ratioWidth.addEventListener("input", calculateHeight);
