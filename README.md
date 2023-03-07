@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="dice" src=".github/image.png">
+  <img alt="" src=".github/image.png">
 </p>
 
 ## Aspect Ratio Calculator
